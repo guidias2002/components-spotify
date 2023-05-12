@@ -1,0 +1,13 @@
+.principal {
+    width: 100vw;
+}
+
+.lista {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+}
+
+.item {
+    list-style: none;
+}

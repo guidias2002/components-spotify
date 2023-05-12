@@ -1,0 +1,17 @@
+.header {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lista {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.item {
+    display: inline-block;
+    list-style: none;
+}
