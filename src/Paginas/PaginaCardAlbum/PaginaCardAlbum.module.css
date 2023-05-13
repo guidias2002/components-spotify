@@ -1,0 +1,21 @@
+.principal {
+    width: 100vw;
+    height: calc(100vh - 80px);
+    background: rgba(0,0,0,0.9220063025210083);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.lista {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 40px;
+}
+
+li {
+    list-style: none;
+}
