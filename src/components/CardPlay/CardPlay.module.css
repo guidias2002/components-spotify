@@ -1,0 +1,53 @@
+.card {
+    display: flex;
+    align-items: center;
+    background-color: #5c5c5c75;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card:hover {
+    background-color: #5c5c5ccc;
+    transition: 500ms;
+}
+
+.card img {
+    width: 90px;
+    border-radius: 5px 0 0 5px;
+}
+
+.descricao {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+.descricao p {
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.botao {
+    padding: 15px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgba(82, 255, 82, 0.651);
+    cursor: pointer;
+    text-align: center;
+}
+
+.botao:hover {
+    padding: 16px;
+}
+
+.botao svg {
+    font-size: 1.2rem;
+}
+
+.naoMostrar {
+    display: none;
+}
+

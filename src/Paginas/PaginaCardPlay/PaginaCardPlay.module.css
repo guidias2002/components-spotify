@@ -1,13 +1,41 @@
 .principal {
     width: 100vw;
+    height: calc(100vh - 80px);
+    background: rgba(0,0,0,0.9220063025210083);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
 }
 
 .lista {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 25vw);
     justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
 }
 
 .item {
     list-style: none;
+}
+
+
+@media (max-width: 1120px) {
+    .lista {
+        display: grid;
+        grid-template-columns: repeat(2, 40vw);
+        justify-content: center;
+        gap: 15px;
+    }
+}
+
+@media (max-width: 715px) {
+    .lista {
+        display: grid;
+        grid-template-columns: repeat(1, 90vw);
+        justify-content: center;
+        gap: 15px;
+    }
 }
