@@ -3,8 +3,7 @@
     background-color: #3d393927;
     border-radius: 10px;
     cursor: pointer;
-    display: flex;
-    flex-direction: column;
+    position: relative;
 }
 
 .card:hover {
@@ -32,14 +31,13 @@
 }
 
 .botao {
-    width: 33%;
-    position: relative;
-    top: -50px;
-    left: 80px;
+    position: absolute;
+    top: 110px;
+    right: 30px;
     padding: 15px;
     border-radius: 50px;
     border: none;
-    background-color: rgba(82, 255, 82, 0.651);
+    background-color: #38b000;
     cursor: pointer;
     text-align: center;
 }

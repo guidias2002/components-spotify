@@ -14,7 +14,8 @@ export default function CardAlbum({ artista }) {
       <img src={`assets/artistas/${artista.id}/perfil.jpg`} />
       <button
         className={`${mostrar ? styles.botao : styles.naoMostrar}`}
-      ><FaPlay /></button>
+      ><FaPlay />
+      </button>
       <div className={styles.descricao}>
         <p className={styles.nome}>{artista.nome}</p>
         <p className={styles.tag}>Artista</p>
